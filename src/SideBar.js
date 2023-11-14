@@ -1,14 +1,22 @@
 import React, { useRef, useState } from "react";
+import { FaFaceGrimace } from "react-icons/fa6";
+import { CiSearch } from "react-icons/ci";
+import { CiHome } from "react-icons/ci";
+import { TbMovie } from "react-icons/tb";
+import { BiSolidMoviePlay } from "react-icons/bi";
+import { BsFillEmojiSunglassesFill } from "react-icons/bs";
+import { RxCountdownTimer } from "react-icons/rx";
+
 
 export default function SideBar({ opened }) {
   return (
     <nav class={opened ? "main-menu active" : "main-menu"}>
       <ul>
         <li>
-          <a href="https://jbfarrow.com">
+          	<FaFaceGrimace	 />
             <i class="fa fa-home fa-2x"></i>
             <span class="nav-text">Daniel</span>
-          </a>
+
         </li>
         <li class="has-subnav">
           <a href="#">
